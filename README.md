@@ -46,3 +46,11 @@ S'han creat només dues taules
  + Logs_partides. Tota la info de cada moviment.
  
 Així d'aquesta manera podem visualitzar tot el que els usuaris han anat fent i si han recorregut tot al mapa
+## Estructura programa
+El programa bàsicament, està format per dos controladors que bàsicament és l'esquelet del programa. Les tres rutes, 
+que hem explicat anteriorment, són les 3 funcions bàsiques del controlador partida. L'altre controlador, seria com una
+classe i/o mètodes propis de l'app. On hi trobem el que defineix el vector, la direcció, i la recerca dels punts i/o obstacles.
+## Front-end
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://www.polparesllobet.cat/assets/img/terminal.png" width="150"></a></p>
+És una aplicació en javascript pur, on anem fent peticions httpRequest cap a l'api en laravel.
+
